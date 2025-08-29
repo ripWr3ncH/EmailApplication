@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="cssAnchor" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="appNameLabel" layoutX="20.0" layoutY="20.0" styleClass="big" text="Inboxio" />
+        <Label fx:id="sloganLabel" layoutX="20.0" layoutY="60.0" text="Read, Respond, Relax - Inboxio" />
+        <Label fx:id="appInfoLabel" layoutX="20.0" layoutY="100.0" prefWidth="410.0" wrapText="true" text="App Info" />
+        <Label fx:id="developerInfoLabel" layoutX="20.0" layoutY="180.0" prefWidth="410.0" wrapText="true" text="Developer Info" />
+        <Button layoutX="370.0" layoutY="250.0" mnemonicParsing="false" onAction="#closeButtonAction" text="Close" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="cssAnchor" prefHeight="475.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="196.0" layoutY="323.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="34.0" prefWidth="99.0" text="Login" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="197.0" />
+      <Label fx:id="emailText" layoutX="51.0" layoutY="199.0" prefHeight="26.0" prefWidth="52.0" text="Email" />
+      <Label fx:id="passText" layoutX="51.0" layoutY="257.0" prefHeight="26.0" prefWidth="63.0" text="Password" />
+      <TextField fx:id="emailField" layoutX="118.0" layoutY="199.0" prefHeight="26.0" prefWidth="266.0" promptText="Enter your email" AnchorPane.leftAnchor="118.0" AnchorPane.rightAnchor="55.60000000000002" />
+      <PasswordField fx:id="passwordField" layoutX="118.0" layoutY="257.0" prefHeight="26.0" prefWidth="266.0" promptText="Enter your password" AnchorPane.leftAnchor="118.0" AnchorPane.rightAnchor="54.80000000000001" />
+      <Label fx:id="errorLabel" layoutX="176" layoutY="400.0" />
+      <ImageView fitHeight="179.0" fitWidth="271.0" layoutX="136.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="136.0" AnchorPane.rightAnchor="136.79999999999995">
+         <image>
+            <Image url="@icons/ttttttttaww-01.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
